@@ -1,9 +1,9 @@
-Autor: Michał Jankowski
-Rok akademicki: 2019/2020
-Semestr: 5
-Grupa: 1
-Sekcja: 2
 
-Opis: Program z przedmiotu Języki asemblerowe odpowiedzialny za przekształcenie podanego obrazka na odcienie szarości, a następnie koloryzacja do efektu Sepii.
-      Projekt rezlizuje zadania wielowątkowo oraz sprawdza czy użytkownik może uruchomić poprawnie program poprzez sprawdzenie czy ma odpowiednią wersje
-      .NET Frameworka oraz czy jego procesor obsługuje instrukcje SSE oraz AVX.
+Description: Program for assembler language classes. Its main purpose is to convert colored bmp image to Sepia effect photo by pixel values manipulation. Project automatically detects number of available logical processors and socket to determine optimal execution time of image. Algorithm has two version in C# and in ASM linkedo to GUI  by DLL.
+Project was developed using:
+* multithreading
+* AVX and SSE instruction set
+* .NET Framework 4.7.2
+* Windows Forms
+
+
