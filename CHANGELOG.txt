@@ -1,0 +1,3 @@
+#version 1.0
+05.02.2020
+Projekt gotowy do oddania, komentarze do zmian znajdują się w plikach źródłowych
